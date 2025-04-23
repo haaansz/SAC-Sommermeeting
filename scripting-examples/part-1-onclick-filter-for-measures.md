@@ -31,13 +31,30 @@ var SourceChart = PAN_Main_Content_Chart1;
 var TargetChart = PAN_MAIN_S1_R2_CHART1;
 ```
 
+Now we are storing the measure which is needed to be replaced in the target chart.
+
 ```
-// set variable with current measure of the target chart ( needed for Removal in next line )
 var current_measure = TargetChart.getMembers(Feed.ValueAxis)[0];
 ```
+
+In the final step we remove the measure and add the used measure from the source chart.
 
 ```
 TargetChart.removeMember(Feed.ValueAxis, current_measure);
 TargetChart.addMember(Feed.ValueAxis, SourceChart.getMembers(Feed.ValueAxis)[0]);
 ```
+
+
+
+Please check out the help for scripting functions by Pressing:
+
+{% hint style="info" %}
+STRG + SPACE
+{% endhint %}
+
+<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+
+Also have a look at the available Functions on the chart object.
+
+[https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html#Chart](https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html#Chart)
 
