@@ -58,3 +58,5 @@ Also have a look at the available Functions on the chart object.
 
 [https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html#Chart](https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html#Chart)
 
+## Try your first script -> View Mode - Click on your Tile.
+
