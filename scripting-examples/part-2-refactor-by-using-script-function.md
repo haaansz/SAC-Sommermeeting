@@ -10,8 +10,20 @@ Therefore we can make use of scripting functions.
 
 2. Move your current coding from PAN\_Main\_Content\_Chart1 -> OnSelect to the new scripting function „replaceMeasure“
 
+<pre><code>// getMeasures response is usually an array, in this case the target chart only has one measure, 
+therefore we can access the first and only measure with [0]
+targetChart.removeMember(Feed.ValueAxis,targetChart.getMeasures(Feed.ValueAxis)[0]);
+targetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis);
+<strong>
+</strong></code></pre>
+
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 3. Call new scripting function from PAN\_Main\_Content\_Chart1 -> OnSelect
+
+```
+// Use Script Function to replace measure in Linechart
+UTIL_Navigation.replaceMeasure(PAN_MAIN_S1_R2_CHART1,this);
+```
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
