@@ -27,3 +27,5 @@ UTIL_Navigation.replaceMeasure(PAN_MAIN_S1_R2_CHART1,this);
 ```
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+## Now you can copy and paste this script to all other tiles you want so have interactivity with the line chart.
