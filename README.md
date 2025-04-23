@@ -1,4 +1,4 @@
-# Step 2 - Scripting Examples
+# Scripting Examples
 
 * Show Standard funtionallity ( Linked Analysis )
 * Show Scripting Possibilites ( Remove // Add Measure for Charts )
@@ -8,11 +8,11 @@
 
 
 
-### Onclick Filter for Measures
+### Important Pages
 
-Please open the following dashboard and go to the edit mode.
+Scripting Source\
+[https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html](https://help.sap.com/doc/1639cb9ccaa54b2592224df577abe822/release/en-US/index.html)
 
-[https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit](https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit)
-
-<figure><img src=".gitbook/assets/image.png" alt="" width="428"><figcaption></figcaption></figure>
+Story\
+[https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/6EB2BE7A457FA1330D31E5AA6A57A104/?url\_api=true\&preview=true\&mode=view\&view\_id=story2](https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html)
 
