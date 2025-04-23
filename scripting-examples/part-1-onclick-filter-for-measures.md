@@ -26,20 +26,20 @@ PAN\_Main\_Content\_Chart1
 
 Then for simplicity and later usage we are using two variables for the source and the target chart of this interaction.
 
-```
+```typescript
 var SourceChart = PAN_Main_Content_Chart1;
 var TargetChart = PAN_MAIN_S1_R2_CHART1;
 ```
 
 Now we are storing the measure which is needed to be replaced in the target chart.
 
-```
+```typescript
 var current_measure = TargetChart.getMembers(Feed.ValueAxis)[0];
 ```
 
 In the final step we remove the measure and add the used measure from the source chart.
 
-```
+```typescript
 TargetChart.removeMember(Feed.ValueAxis, current_measure);
 TargetChart.addMember(Feed.ValueAxis, SourceChart.getMembers(Feed.ValueAxis)[0]);
 ```
