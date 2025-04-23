@@ -1,8 +1,8 @@
-# Part 1 - Onclick Filter for Measures
+# Part 1 - On click Filter for Measures
 
 
 
-<div align="center" data-full-width="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-full-width="true"><figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Within this example we want to create some interactivity between the Tile up top and the Linechart below. When clicking on the Text the measure in the linechart should be replaced with the measure from the Tile calling.
 
@@ -16,7 +16,7 @@ Please open the following dashboard and go to the edit mode and save the file to
 
 After Saving the story, we go again into the Edit Mode -> then check out the outline. ( Remember to slide out the left panel )
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then find get the Tile for Gross Margin in the outline and find the scripting possibilities.
 
@@ -52,7 +52,7 @@ Please check out the help for scripting functions by Pressing:
 STRG + SPACE
 {% endhint %}
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
 Also have a look at the available Functions on the chart object.
 
