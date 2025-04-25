@@ -1,9 +1,11 @@
 # Scripting Examples
 
-* Show Standard funtionallity ( Linked Analysis )
+
+
 * Show Scripting Possibilites ( Remove // Add Measure for Charts )
 * Show scripting Functions ( more info on used functions )
 * Show how to generalize in scripting Function
+* Console Log / Debugging
 * Array Handling in SAC
 
 
