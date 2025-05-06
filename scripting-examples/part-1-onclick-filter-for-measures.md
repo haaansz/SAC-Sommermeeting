@@ -50,7 +50,7 @@ Please check out the help for scripting functions by Pressing:
 STRG + SPACE
 {% endhint %}
 
-<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Also have a look at the available Functions on the chart object.
 
