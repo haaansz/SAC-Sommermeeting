@@ -12,7 +12,7 @@ The detailed page  consists of one chart and one table with a detailled view for
 
 Let's have look at what is happening when i click on the Text.
 
-First identity the object for the "Gross Margin" Text and then have a look at the Function.
+First identify the object for the "Gross Margin" Text and then have a look at the Function.
 
 ![](<../.gitbook/assets/image (12).png>)
 
@@ -38,6 +38,8 @@ switch(ipan){
 		break;	
 }
 ```
+
+In this function the PAN\_MAIN\_S1 will be hidden while currently hidden PAN\_MAIN\_S2 ( contains the details objects ) will be set to visible.
 
 
 
