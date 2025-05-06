@@ -1,47 +1,37 @@
-# Part 3 - Details Page Measure Selection
+# Part 3 Details Page Measure Selection
 
-In this 3 part we want to have the possibility to use a Dropdown for a measure selection in the details page.
+Now we want to allow the users to switch the measures on the details page:
 
-The details page can be accessed by clicking on the measure name on top of the tile.
+![](<../.gitbook/assets/image (1).png>)
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+We are using a Dropdownbox which needs to be filled first.&#x20;
 
-The detailed page  consists of one chart and one table with a detailled view for the selected measure.
+If you want this Dropdown to be populated at the start we will need to use the onInitialization
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Let's have look at what is happening when i click on the Text.
+Here we redirect to a init function in a script object to fill the Dropdown:
 
-First identify the object for the "Gross Margin" Text and then have a look at the Function.
-
-![](<../.gitbook/assets/image (12).png>)
-
-```typescript
-UTIL_Navigation.goToMainPAN(2);
+```
+UTIL_Init.initDropdowns();
 ```
 
-Function goToMainPan:
+Function initDropdowns():
 
 ```typescript
-switch(ipan){
-		case 1:
-		PAN_MAIN_S1.setVisible(true);
-		PAN_MAIN_S2.setVisible(false);		
-		break;	
-		case 2:
-		PAN_MAIN_S1.setVisible(false);
-		PAN_MAIN_S2.setVisible(true);		
-		break;	
-		case 3:
-		PAN_MAIN_S1.setVisible(false);
-		PAN_MAIN_S2.setVisible(false);	
-		break;	
+var measures = DP1.getDataSource().getMembers("Account_BestRunJ_sold");
+
+// Check out F12 -> Console 
+console.log(measures);
+
+for (var i = 0; i < measures.length; i++) {
+    DROP_Measure.addItem(measures[i].id,measures[i].description);
+	DROP_Measure.setSelectedKey(PAN_MAIN_S2_Chart1.getMembers(Feed.ValueAxis)[0]);
 }
 ```
 
-In this function the PAN\_MAIN\_S1 will be hidden while currently hidden PAN\_MAIN\_S2 ( contains the details objects ) will be set to visible.
+In a first step we define a variable to hold all measures from the Datasource.&#x20;
 
-
-
-
-
+{% hint style="info" %}
+After entering getMembers( you can also use the shortcut Strg + Space to help you with the account dimension.
+{% endhint %}

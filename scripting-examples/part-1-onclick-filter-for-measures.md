@@ -14,7 +14,7 @@ Please open the following dashboard and go to the edit mode and save the file to
 
 After Saving the story, we go again into the Edit Mode -> then check out the outline. ( Remember to slide out the left panel )
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then find get the Tile for Gross Margin in the outline and find the scripting possibilities.
 
