@@ -35,6 +35,16 @@ Now we are storing the measure which is needed to be replaced in the target char
 var current_measure = TargetChart.getMembers(Feed.ValueAxis)[0];
 ```
 
+{% hint style="info" %}
+getMembers needs to know from which part of the chart we want to receive the value.
+
+Feed.ValueAxis is holding the measure in line chart.
+
+\[0] is needed as getMembers delivers an array, with \[0] we get the first item of this array.
+{% endhint %}
+
+
+
 In the final step we remove the measure and add the used measure from the source chart.
 
 ```typescript
