@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-Within this example we want to create some interactivity between the Tile up top and the Linechart below. When clicking on the Text the measure in the linechart should be replaced with the measure from the Tile calling.
+Within this example we want to create some interactivity between the Tile up top and the Linechart below. When clicking on the Value of the measure of the tile, the linechart should be replaced with the measure from the Tile calling the action.
 
 
 
