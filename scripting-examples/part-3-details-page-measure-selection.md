@@ -10,7 +10,7 @@ The detailed page  consists of one chart and one table with a detailled view for
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-Let's have look at what is happening when i click on the Text.
+Let's have look at what is happening when we click on the Text "Gross Margin".
 
 First identify the object for the "Gross Margin" Text and then have a look at the Function.
 
