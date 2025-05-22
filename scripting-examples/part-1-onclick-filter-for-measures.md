@@ -10,7 +10,7 @@ Please open the following dashboard and go to the edit mode and save the file to
 
 [https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit](https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit)
 
-After Saving the story, we go again into the Edit Mode -> then check out the outline. ( Remember to slide out the left panel )
+After Saving the story to your private folder, open theEdit Mode -> then check out the outline. ( Remember to slide out the left panel )
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
