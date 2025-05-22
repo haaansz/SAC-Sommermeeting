@@ -14,11 +14,13 @@ Here we redirect  to the init function UTIL\_Init.init().&#x20;
 
 -> To fill the dropdowns, we have an init function which is used to setup the dropdowns for the dashboard.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 UTIL_Init.initDropdowns();
 ```
+
+Enter following code for this function.
 
 <pre class="language-typescript"><code class="lang-typescript"><strong>//Define a variable to hold all measures from the Datasource
 </strong>var measures = DP1.getDataSource().getMembers("Account_BestRunJ_sold");
@@ -43,28 +45,18 @@ Press F12 to open the developer tools of your browser.
 Under Console -> you should see the measure variable values.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-
-
-
-
-
-
 The Dropdown should be filled during startup of the story, now we need to script the interaction with the charts on the detail page.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Currently you wouldn't see the details page, because its hidden in design time. Click on the eye symbol to make it visible.
 
 {% hint style="info" %}
-This visibility is only for the design time, the visibility during view time is set in the styling panel of the objects.&#x20;
+This visibility is only for the design time, the visibility during view time is set in the styling panel of the objects.
 
-![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+Open the right side panel to check the View Time visibility. ![](../.gitbook/assets/image.png)&#x20;
+
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 {% endhint %}
 
 To script the interaction are using the Dropdown:
@@ -76,3 +68,18 @@ PAN_MAIN_S2_Chart1.removeMember(Feed.ValueAxis,PAN_MAIN_S2_Chart1.getMembers(Fee
 PAN_MAIN_S2_Chart1.addMember(Feed.ValueAxis,this.getSelectedKey());
 PAN_MAIN_S2_TAB1.getDataSource().setDimensionFilter(Alias.MeasureDimension,this.getSelectedKey());
 ```
+
+Save the story and execute the dashboard with Developer tools open. ( F12 ) .
+
+{% hint style="info" %}
+Console.log() can be used to display variables without the need for debugging.
+
+Press F12 to open the developer tools of your browser.
+
+Under Console -> you should see the measure variable values.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
