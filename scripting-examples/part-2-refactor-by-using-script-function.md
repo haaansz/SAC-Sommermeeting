@@ -6,18 +6,18 @@ Therefore we can make use of scripting functions.
 
 1. Create a new Scripting Function „replaceMeasure“ under the Scripting Object UTIL\_Navigation ( in Outline.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Enter the following coding to your created script function.
 
-<pre class="language-typescript"><code class="lang-typescript">// getMeasures response is usually an array, in this case the target chart only has one measure, 
-// therefore we can access the first and only measure with [0]
+<pre class="language-typescript"><code class="lang-typescript">// set variable with current measure of the target chart.
+// getMeasures response is usually an array, in this case the target chart only has one measure, therefore we can access the first and only measure with [0]
 TargetChart.removeMember(Feed.ValueAxis,targetChart.getMeasures(Feed.ValueAxis)[0]);
 TargetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis);
 <strong>
 </strong></code></pre>
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3. Call new scripting function from PAN\_Main\_Content\_Chart1 -> OnSelect
 

@@ -50,7 +50,7 @@ This visibility is only for the design time, the visibility during view time is 
 
 To script the interaction are using the Dropdown:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```typescript
 PAN_MAIN_S2_Chart1.removeMember(Feed.ValueAxis,PAN_MAIN_S2_Chart1.getMembers(Feed.ValueAxis)[0]);
