@@ -10,7 +10,9 @@ Within this example we want to create some interactivity between the Tile up top
 
 Please open the following dashboard and go to the edit mode and save the file to your [User Folder](https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/files&/f/myfiles/15ECCD848CDFE846C9C217EBAF748FDD).
 
-{% embed url="https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit" %}
+[https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit](https://zpartner-sac-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/76E0A7B1127EFD5B246E454C135444C6/?mode=edit)
+
+
 
 After Saving the story, we go again into the Edit Mode -> then check out the outline. ( Remember to slide out the left panel )
 
@@ -18,9 +20,7 @@ After Saving the story, we go again into the Edit Mode -> then check out the out
 
 Then find get the Tile for Gross Margin in the outline and find the scripting possibilities.
 
-{% hint style="info" %}
-PAN\_Main\_Content\_Chart1
-{% endhint %}
+**Info:** PAN\_Main\_Content\_Chart1
 
 Then for simplicity and later usage we are using two variables for the source and the target chart of this interaction.
 
