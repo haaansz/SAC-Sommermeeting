@@ -20,7 +20,7 @@ After Saving the story, we go again into the Edit Mode -> then check out the out
 
 Then find get the Tile for Gross Margin in the outline and find the scripting possibilities.
 
-**Info:** PAN\_Main\_Content\_Chart1
+ℹ️ **Info:**  PAN\_Main\_Content\_Chart1
 
 Then for simplicity and later usage we are using two variables for the source and the target chart of this interaction.
 
