@@ -6,9 +6,9 @@ Therefore we can make use of scripting functions.
 
 1. Create a new Scripting Function „replaceMeasure“ under the Scripting Object UTIL\_Navigation ( in Outline.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2. Move your current coding from PAN\_Main\_Content\_Chart1 -> OnSelect to the new scripting function „replaceMeasure“
+2. Enter the following coding to your created script function.
 
 <pre class="language-typescript"><code class="lang-typescript">// getMeasures response is usually an array, in this case the target chart only has one measure, 
 // therefore we can access the first and only measure with [0]

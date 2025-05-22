@@ -38,14 +38,14 @@ After entering getMembers( you can also use the shortcut Strg + Space to help yo
 
 The Dropdown should be filled during startup of the story, now we need to script the interaction with the charts on the detail page.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Currently you wouldn't see the details page, because its hidden in design time. Click on the eye symbol to make it visible.
 
 {% hint style="info" %}
 This visibility is only for the design time, the visibility during view time is set in the styling panel of the objects.&#x20;
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 {% endhint %}
 
 To script the interaction are using the Dropdown:
