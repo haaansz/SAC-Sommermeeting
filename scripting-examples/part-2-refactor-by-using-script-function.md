@@ -12,8 +12,8 @@ Therefore we can make use of scripting functions.
 
 <pre class="language-typescript"><code class="lang-typescript">// getMeasures response is usually an array, in this case the target chart only has one measure, 
 // therefore we can access the first and only measure with [0]
-targetChart.removeMember(Feed.ValueAxis,targetChart.getMeasures(Feed.ValueAxis)[0]);
-targetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis);
+TargetChart.removeMember(Feed.ValueAxis,targetChart.getMeasures(Feed.ValueAxis)[0]);
+TargetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis);
 <strong>
 </strong></code></pre>
 
