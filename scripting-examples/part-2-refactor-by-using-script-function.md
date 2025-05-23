@@ -6,7 +6,7 @@ Therefore we can make use of scripting functions.
 
 1. Create a new Scripting Function „replaceMeasure“ under the Scripting Object UTIL\_Navigation ( in Outline.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Enter the following coding to your created script function.
 
@@ -17,7 +17,7 @@ TargetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis
 <strong>
 </strong></code></pre>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Call new scripting function from PAN\_Main\_Content\_Chart1 -> OnSelect
 
@@ -26,6 +26,6 @@ TargetChart.addMeasure(sourceChart.getMeasures(Feed.ValueAxis)[0],Feed.ValueAxis
 UTIL_Navigation.replaceMeasure(PAN_MAIN_S1_R2_CHART1,this);
 ```
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Now you can copy and paste this script to all other tiles you want so have interactivity with the line chart.

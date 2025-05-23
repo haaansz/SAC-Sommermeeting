@@ -4,7 +4,7 @@ In this 3 part we want to have the possibility to use a Dropdown for a measure s
 
 The details page can be accessed by clicking on the measure name on top of the tile.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 The detailed page  consists of one chart and one table with a detailled view for the selected measure.
 
