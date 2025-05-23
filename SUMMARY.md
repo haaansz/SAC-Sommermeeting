@@ -11,3 +11,7 @@
   * [Create a composite](composites/create-a-composite.md)
   * [Create Content for a Composite](composites/create-content-for-a-composite.md)
   * [Import a Composite](composites/import-a-composite.md)
+  * [Add Composite to a new Page](composites/add-composite-to-a-new-page.md)
+  * [Change content of Composite Header](composites/change-content-of-composite-header.md)
+  * [Add Composite Header to main Page](composites/add-composite-header-to-main-page.md)
+  * [Add another Composite to your page](composites/add-another-composite-to-your-page.md)

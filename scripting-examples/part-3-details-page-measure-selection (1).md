@@ -2,7 +2,7 @@
 
 Now we want to allow the users to switch the measures on the details page:
 
-![](<../.gitbook/assets/image (4) (1) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 We are using a Dropdownbox which needs to be filled first.&#x20;
 
@@ -14,7 +14,7 @@ Here we redirect  to the init function UTIL\_Init.init().&#x20;
 
 -> To fill the dropdowns, we have an init function which is used to setup the dropdowns for the dashboard.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 UTIL_Init.initDropdowns();
@@ -47,7 +47,7 @@ Under Console -> you should see the measure variable values.
 
 The Dropdown should be filled during startup of the story, now we need to script the interaction with the charts on the detail page.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Currently you wouldn't see the details page, because its hidden in design time. Click on the eye symbol to make it visible.
 
@@ -56,12 +56,12 @@ This visibility is only for the design time, the visibility during view time is 
 
 Open the right side panel to check the View Time visibility. ![](<../.gitbook/assets/image (10).png>)&#x20;
 
-![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
 {% endhint %}
 
 To script the interaction are using the Dropdown:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```typescript
 PAN_MAIN_S2_Chart1.removeMember(Feed.ValueAxis,PAN_MAIN_S2_Chart1.getMembers(Feed.ValueAxis)[0]);
@@ -79,7 +79,7 @@ Press F12 to open the developer tools of your browser.
 Under Console -> you should see the measure variable values.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
