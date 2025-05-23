@@ -16,8 +16,28 @@ To pause script execution, open the desired script. On the left, click the line 
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
+#### **Execution Control and Stepping**
+
+* **Step Over** (`F10`): Runs one line, stepping over function calls.
+* **Step Into** (`F11`): Steps into functions to see their internal workings.
+* **Step Out** (`Shift + F11`): Executes remaining lines in the current function and pauses at the caller.
+* **Resume** (`F8`): Continues execution until the next breakpoint or end.
+
+
+
+
+
 To enable debug mode in SAP Analytics Cloud, you can also use the `debugger;` statement. This allows your scripts to pause at specific points during runtime, helping you identify and fix errors efficiently.
 
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+Here you would additionally need to use the following url parameter to enter the debugging mode:
+
+{% hint style="info" %}
+```
+?mode=present&debug=true
+```
+{% endhint %}
+
