@@ -8,7 +8,7 @@
   * [Debugging](readme/debugging.md)
 * [Composites](composites/README.md)
   * [Information](composites/information.md)
-  * [Create a composite](composites/create-a-composite.md)
+  * [Create a Composite](composites/create-a-composite.md)
   * [Create Content for a Composite](composites/create-content-for-a-composite.md)
   * [Import a Composite](composites/import-a-composite.md)
   * [Add Composite to a new Page](composites/add-composite-to-a-new-page.md)
