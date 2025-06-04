@@ -1,5 +1,6 @@
 # Import a Composite
 
+* Open you story and add the composite you just created
 * To add to an existing story, Import Composite from Files.
 * It is possible to add more than one composite
 
