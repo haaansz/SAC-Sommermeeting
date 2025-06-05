@@ -29,3 +29,18 @@ Composite.fireEvent(„JumpDA“);
 Add an Event with the a name – best use the same as the button
 
 <div align="left"><figure><img src="../.gitbook/assets/image (28).png" alt="" width="351"><figcaption></figcaption></figure></div>
+
+Now after adding the Composite to your story and with the available scripting event and add Scripting for jumping to DataAnalyzer with Model data and Story Filter
+
+<div align="left"><figure><img src="../.gitbook/assets/image (29).png" alt="" width="563"><figcaption></figcaption></figure></div>
+
+```javascript
+NavigationUtils.openDataAnalyzer(undefined, DP1.getDataSource().getInfo().modelId, UrlParameter.create('systemType', 'MODEL'));
+
+```
+
+In View Mode it is now possible to click on the button and DataAnalyzer opens in a new page.
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
