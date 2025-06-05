@@ -2,9 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-What we are going to do:
-
-Create a Headerpanel with Image, Dynamic Text (Date) and Text
+In this exercise we are going to create a Headerpanel with Image, Dynamic Text (Date) and Text.
 
 1. Add Panel to the Composite
 
