@@ -12,7 +12,7 @@ Use the search panel to find your scripts: (Ctrl + P)
 
 ![](<../.gitbook/assets/image (7).png>)
 
-To pause script execution, open the desired script. On the left, click the line number where you want the pause, marked by a blue indicator. This marker shows where the script will halt during its next run.
+To pause a script execution, open the function you want to debug ( in this example initDropdown ). On the left, click on the line number where you want to pause, ( blue indicator ). This marker shows where the script will stop during its next run.
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
