@@ -3,4 +3,4 @@
 * Drag\&Drop imported Composite where it is needed
 * As seen in this example, the composite Styling is changed automatically to the story theme/css
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

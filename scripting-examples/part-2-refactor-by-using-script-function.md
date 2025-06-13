@@ -6,9 +6,9 @@ Therefore we can make use of scripting functions.
 
 1. Create a new Scripting Function „replaceMeasure“ under the Scripting Object UTIL\_Navigation ( in Outline.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-2. Enter the following coding to your created script function.
+1. Enter the following coding to your created script function.
 
 <pre class="language-typescript"><code class="lang-typescript">// set variable with current measure of the target chart.
 // getMeasures response is usually an array, in this case the target chart only has one measure, therefore we can access the first and only measure with [0]

@@ -14,7 +14,7 @@ Here we redirect  to the init function UTIL\_Init.init().&#x20;
 
 -> To fill the dropdowns, we have an init function which is used to setup the dropdowns for the dashboard.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 UTIL_Init.initDropdowns();
