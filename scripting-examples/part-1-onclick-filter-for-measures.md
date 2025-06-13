@@ -14,7 +14,7 @@ After Saving the story to your private folder, open theEdit Mode -> then check o
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Then find get the Tile for Gross Margin in the outline and find the scripting possibilities.
+Then go to the Tile for Gross Margin in the outline and find the scripting possibilities.
 
 ℹ️ **Info:** PAN\_Main\_Content\_Chart1
 
